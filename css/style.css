@@ -471,6 +471,14 @@ color: var(--text-black-700);
     max-width: 50%;
     margin-top: 30px;
 }
+.about .about-content .education .title, 
+.about .about-content .experience .title
+{
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: var(--text-black-900);
+}
 .about .about-content h3.section-title
 {
 font-size: 24px;
@@ -478,6 +486,7 @@ margin-bottom: 30px;
 font-weight: 700;
 color: var(--text-black-900);
 }
+
 .about .about-content .timline-box
 {
     flex: 0 0 100%;
@@ -537,10 +546,16 @@ color: var(--text-black-900);
 {
     margin-right: 5px;
 }
+.about .about-content .timline .timeline-title
+{
+    color: #ffffff;
+    font-size: 18px;
+
+}
 .about .about-content .timline .timeline-text
 {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 15px;
     text-transform: capitalize;
     color: var(--text-black-900);
